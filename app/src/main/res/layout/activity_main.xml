@@ -12,10 +12,10 @@
     <!--    // xanh  : 4-->
     <!--    // den : 4-->
     <LinearLayout
-        android:layout_weight="2"
-        android:background="#f20"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"/>
+    android:layout_weight="2"
+    android:background="#f20"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"/>
     <LinearLayout
         android:layout_weight="4"
         android:background="#0048FF"
@@ -26,4 +26,13 @@
         android:background="#040404"
         android:layout_width="match_parent"
         android:layout_height="0dp"/>
+
+    - Thong ke
+        - layout_gravity (trái chiều) orientation
+        - gravity (dùng để xác định vị trí bên trong kích của mình)
+        - orientaion (hướng các thằng con được sắp xếp)
+        - layout_weight
+            + lấy kích thước của parent (nếu các weight bằng nhau thì chia đều)
+            + cùng chiều orientation
+        - weight sum : số lượng phần 1 parent sẽ có
 </LinearLayout>
