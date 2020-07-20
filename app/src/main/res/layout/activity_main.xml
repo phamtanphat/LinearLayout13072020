@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,14 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    Cach 1 : <ImageView
-    android:layout_width=""
-    android:layout_height="">
+<!--    ctrl + space : phim goi y code-->
+    <TextView
+        android:textColor="#ffff"
+        android:background="#f20"
+        android:paddingLeft="100dp"
+        android:layout_margin="10dp"
+        android:text="View 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
-        </ImageView>
-
-    Cach 2 : <ImageView
-    android:layout_width=""
-    android:layout_height=""/>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
